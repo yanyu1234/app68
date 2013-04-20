@@ -1,2 +1,2 @@
 <?php 
-echo "Hello git hook update ";
+echo "Hello git hook update Another computer ";
