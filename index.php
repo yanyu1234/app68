@@ -1,2 +1,2 @@
 <?php 
-	echo "Test git hook"
+	echo "Test git hook Code"
