@@ -1,2 +1,2 @@
 <?php
-	echo "Test add file"
+	echo "Test add file";
