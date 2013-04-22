@@ -1,0 +1,20 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+
+#强制www重定向
+rewritecond %{http_host} ^www.yourhost.com [nc]
+rewriterule ^(.*)$ http://yourhost.com/$1 [r=301,nc]
+
+#路由规则，除了*.php static robots.txt 以外的所有请求
+RewriteCond $1 !^([a-z]+\.php|static|robots\.txt)
+
+#路由默认的首页
+RewriteRule ^()?$ index.php?%{QUERY_STRING} [L]
+#路由管理中心
+RewriteRule ^(beta)/(.+)?$ $1.php/$2?%{QUERY_STRING} [L]
+#RewriteRule ^(member)/(.+)?$ $1.php/$2?%{QUERY_STRING} [L]
+
+RewriteCond $1 !^([a-z]+\.php|static|robots\.txt)
+RewriteRule ^([a-z]+)/(.+)?$ index.php/$1/$2?%{QUERY_STRING} [L]
+
+</IfModule>
