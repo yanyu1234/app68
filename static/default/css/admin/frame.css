@@ -1,0 +1,24 @@
+/*
+         ╭──╮╭──╮╭─╮  ╭─╮  TM
+         │╭─╯│╭╮│╰╮│  ╰╮│ 
+         │╰─╮│╰╯│  ││    ││  
+         ╰─╮││╭╮│  ││    ││  
+         ╭─╯││╰╯│╭╯╰╮╭╯╰╮
+         ╰──╯╰──╯╰──╯╰──╯
+                         
+      Web: www.5811.com.cn  Tel: 4006-120-950
+  
+*/
+
+/* 公共 */
+ 
+ .table table {width:100%;}
+ .table th {background:#F3F4F6; border-left:1px solid #C0C7D1; border-bottom:1px solid #C0C7D1; color:#7D7F7E; padding:5px; font-weight:normal;}
+ .table td {padding:5px; border-bottom:1px solid #eee;}
+ 
+ h2 {font-size:14px; height:30px; padding-top:10px;}
+ 
+ .btn-box {background:#C9E5F3; height:33px; padding:5px 0 0 5px;}
+ .btn-box a {display:inline-block; width:64px; height:26px; line-height:26px; text-align:center; color:#333; background:url(../images/at1.jpg) no-repeat;}
+ .btn-box a:hover {background-position:0 -26px;}
+ 

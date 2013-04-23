@@ -1,0 +1,71 @@
+/*
+         ╭──╮╭──╮╭─╮  ╭─╮  TM
+         │╭─╯│╭╮│╰╮│  ╰╮│ 
+         │╰─╮│╰╯│  ││    ││  
+         ╰─╮││╭╮│  ││    ││  
+         ╭─╯││╰╯│╭╯╰╮╭╯╰╮
+         ╰──╯╰──╯╰──╯╰──╯
+                         
+      Web: www.5811.com.cn  Tel: 4006-120-950
+  
+*/
+
+/* 公共 */
+
+
+
+/* 导航 */
+#bd {background:url(../../images/admin/bg.gif) repeat-y; min-height:600px;}
+#bd{width:100%; float:left;}
+.col-l{width:201px; }
+.col-r{ margin-left:210px; float:none; padding-left:10px; }
+iframe {width:100%;}
+ 
+/* 栏目 */
+dl{}
+
+/* 列表 */
+.list-txt{}
+
+/* 独立模块 */
+
+    /* 头部 */
+    
+    #hd{ height:60px; background:#2B85D1; border-bottom:3px solid #69BDDF;}
+    #hd .logo{ width:200px; padding:10px 0 0 30px;}
+    #hd .nv {}
+    #hd .hdr{width:300px; color:#fff; text-align:right; padding:30px 20px 0 0 ;}
+    #hd .hdr a {color:#fff;}
+
+    .nv li {float:left; padding-top:29px; margin:0 10px;}
+    .nv li a {display:block; float:left; height:31px; text-align:center; font-size:14px; line-height:31px; color:#fff; }
+    .nv li.on a{background:url(../../images/admin/at.gif) no-repeat right -31px; color:#2B85D1; padding:0 20px 0 0; float:left;}
+    .nv li a span { height:31px; float:left;}
+    .nv li.on a span {background:url(../../images/admin/at.gif) no-repeat left 0; vertical-align:middle; padding-left:20px;}
+    
+    .snv {width:201px; left:0; top:10px}
+    .snv li { height:35px; line-height:35px;}
+    .snv li a {display:block; background:url(../../images/admin/i1.gif) no-repeat 30px 13px; padding-left:40px; font-size:14px; color:#333;}
+    .snv li a:hover{ background-color:#D2E9F9;}
+    .snv li.on {background:url(../../images/admin/on1.gif) no-repeat}
+    .snv li.on a:hover {background-color:none;}
+    
+    /* 底部 */
+    #fd{color:#616161; text-align:center; padding:10px; border-top:3px solid #69BDDF; clear:both}
+    #fd span {display:inline-block;  margin:0 5px;}
+               
+/* 功能模块 */
+#wp-login {padding-top:120px; width:680px;  margin:0 auto;}
+#wp-login #bd {width:680px;  height:465px; background:url(../../images/admin/line.jpg) no-repeat 340px top; margin:0 auto;}
+#wp-login #bd .col-l{width:320px; padding-top:50px;}
+#wp-login #bd .col-l p {padding-top:10px;}
+#wp-login #bd .col-r{width:310px; float:right; font-size:14px; margin:0; padding-top:50px;}
+#wp-login .inp {width:200px; padding:5px 5px 5px 5px; font-size:14px; color:#333;border:1px solid #CCCCCC; Border-radius:3px; height:19px;} 
+
+#wp-login  .bor {border:1px solid #4B92D0;}
+
+div.bnt { padding-left:60px; }
+div.bnt input { background:url(../../images/admin/btn-1.jpg) no-repeat ; width:83px; height:34px; line-height:34px; text-align:center; font-size:14px; color:#fff; border:0; cursor:pointer; }
+div.bnt input:hover { opacity:0.9}
+.yanzheng {margin:-25px 0px 5px 80px;fony-family:"Microsoft YaHei"; color:red;}
+ .sa{position:relative;;left:154px;bottom:31px;cursor:pointer;}
